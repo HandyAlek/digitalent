@@ -6,6 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>TUGAS 5</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .kalkulator {
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aqua;
+            border-radius: 24px;
+            width: 500px;
+            padding: 30px;
+            margin: 30px auto;
+        }
+        .button{
+            background-color:black;
+            border-radius: 24px;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        .input1{
+            border: none;
+            border-radius: 24px;
+            width: 250px;
+            font-size: 20px;
+            padding: 5px;
+        }
+        input::-webkit-input-placeholder{
+            color: gray;
+            opacity: 0.5;
+            font-size: 16px;
+            padding: 10px;
+        }
+    </style>
 
 </head>
 <body>
@@ -31,7 +68,7 @@
     <div class="kalkulator">
         <h2 class="judul">KALKULATOR SEDERHANA</h2>
 
-        <form method="POST" action="">
+        <form method="POST" action="a.php">
             <label>Bilangan 1 : </label><input type="text" name="bil1" class="input1" placeholder="Input Angka Ke-1"><br>
             <br>
             <label>Bilangan 2 : </label><input type="text" name="bil2" class="input1" placeholder="Input Angka Ke-2"><br>
