@@ -31,7 +31,7 @@
     <div class="kalkulator">
         <h2 class="judul">KALKULATOR SEDERHANA</h2>
 
-        <form method="POST" action="a.php">
+        <form method="POST" action="">
             <label>Bilangan 1 : </label><input type="text" name="bil1" class="input1" placeholder="Input Angka Ke-1"><br>
             <br>
             <label>Bilangan 2 : </label><input type="text" name="bil2" class="input1" placeholder="Input Angka Ke-2"><br>
